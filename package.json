@@ -1,0 +1,35 @@
+{
+  "name": "template-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now",
+    "deploy-prod": "now --prod"
+  },
+  "dependencies": {
+    "react": "experimental",
+    "react-dom": "experimental",
+    "@babel/runtime": "^7.9.6",
+    "@matthamlin/component-library": "^3.3.0",
+    "@mdx-js/loader": "^1.6.1",
+    "@mdx-js/react": "^1.6.1",
+    "@next/mdx": "^9.3.6",
+    "next": "9.3.7-canary.18",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-plugin-styled-components": "^1.10.7"
+  },
+  "resolutions": {
+    "styled-components": "5.1.0"
+  }
+}
