@@ -9,7 +9,7 @@ yarn
 ```
 
 ```sh
-yarn start
+yarn dev
 ```
 
 ## Deploying:
