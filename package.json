@@ -10,14 +10,14 @@
     "deploy-prod": "now --prod"
   },
   "dependencies": {
-    "react": "experimental",
-    "react-dom": "experimental",
     "@babel/runtime": "^7.9.6",
     "@matthamlin/component-library": "^3.3.0",
     "@mdx-js/loader": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "@next/mdx": "^9.3.6",
     "next": "9.3.7-canary.18",
+    "react": "experimental",
+    "react-dom": "experimental",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
@@ -25,9 +25,13 @@
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/plugin-transform-typescript": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
-    "babel-plugin-styled-components": "^1.10.7"
+    "@types/node": "^14.0.1",
+    "@types/react": "^16.9.35",
+    "babel-plugin-styled-components": "^1.10.7",
+    "typescript": "^3.9.2"
   },
   "resolutions": {
     "styled-components": "5.1.0"
