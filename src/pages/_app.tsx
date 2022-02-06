@@ -1,4 +1,3 @@
-import React from 'react'
 import { ThemeProvider, Reset } from '@ds-pack/components'
 import Head from 'next/head'
 

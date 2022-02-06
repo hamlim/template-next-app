@@ -13,8 +13,9 @@ module.exports = function (api) {
     ]
   }
   return {
-    presets: [cfg, '@babel/preset-react'],
+    presets: ['next/babel', cfg],
     plugins: [
+      '@vanilla-extract/babel-plugin',
       [
         '@babel/plugin-transform-typescript',
         {
