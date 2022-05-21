@@ -10,6 +10,7 @@
     "deploy-prod": "now --prod"
   },
   "dependencies": {
+    "@babel/core": "^7.18.0",
     "@babel/runtime": "^7",
     "@ds-pack/components": "*",
     "@ds-pack/use-refs": "^1",
@@ -23,11 +24,11 @@
     "polished": "^4.2.2",
     "rainbow-sprinkles": "^0.6",
     "react": "experimental",
-    "react-dom": "experimental"
+    "react-dom": "experimental",
+    "webpack": "^5"
   },
   "devDependencies": {
     "@babel/plugin-proposal-export-default-from": "^7",
-    "@babel/plugin-transform-typescript": "^7",
     "@types/node": "^14",
     "@types/react": "^18",
     "typescript": "^4"
