@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import '@ds-pack/components/src/reset.css'
+import '../global.css'
 
 export default function App({ Component, pageProps }) {
   return (
