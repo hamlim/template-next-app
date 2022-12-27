@@ -1,15 +1,11 @@
-import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
-import createTM from 'next-transpile-modules'
-let withVanillaExtract = createVanillaExtractPlugin()
-let withTM = createTM(['@ds-pack/components'])
-
-/** @type {import('next').NextConfig} */
-let config = {
-  reactStrictMode: true,
+export default {
   experimental: {
-    // appDir: true
-    runtime: 'nodejs',
-    serverComponents: true,
+    appDir: true,
+  },
+  modularizeImports: {
+    '@ds-pack/components': {
+      transform: '@ds-pack/components/dist/{{member}}',
+      skipDefaultConversion: true,
+    },
   },
 }
-export default withTM(withVanillaExtract(config))
