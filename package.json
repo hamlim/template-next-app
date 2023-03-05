@@ -16,10 +16,10 @@
     "@vanilla-extract/dynamic": "*",
     "eslint-config-next": "latest",
     "nanopop": "2.1.0",
-    "next": "latest",
+    "next": "canary",
     "rainbow-sprinkles": "*",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "experimental",
+    "react-dom": "experimental"
   },
   "devDependencies": {
     "@types/node": "^16.11.36",
