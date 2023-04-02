@@ -1,4 +1,4 @@
-import Greeting from '@ui/Greeting'
+import Greeting from '@lib/Greeting'
 
 export default function Index() {
   return <Greeting>Hello! 👋</Greeting>
