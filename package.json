@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "update-deps": "bun remove next react react-dom && bun add next@canary react@experimental react-dom@experimental"
   },
   "dependencies": {
     "@ds-pack/daisyui": "^0.0.5",
